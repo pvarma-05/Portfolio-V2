@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${outfit.variable} ${plus_jakarta.variable} ${righteous.variable} antialiased`}
+        className={`bg-gray-950 text-white ${outfit.variable} ${plus_jakarta.variable} ${righteous.variable} antialiased`}
       >
         {children}
       </body>
